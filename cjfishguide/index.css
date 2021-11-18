@@ -15,20 +15,14 @@ body{
     text-align: center;
 }
 #navbar{
-    list-style-type: none;
-    margin: 0 15%;
-    padding: 0;
-    overflow: hidden;
-    background-color:#A5E9F7; 
-    border-radius: 20px; 
-    
-    /* display: flex;
+    display: flex;
     flex-flow: row wrap;
     padding: 0;
     list-style: none;
-    background: lightblue;
+    background:#A5E9F7;
     border-radius: 10px;
-    justify-content:space-evenly ; */
+    justify-content:space-evenly ;
+    margin: 0 15%;
 }
 .navli{
     font-family: 'Balsamiq Sans', cursive;
@@ -39,3 +33,9 @@ body{
     margin: 0 5%;
     padding: 14px 14px;
 }
+div{
+    background-color: white;
+    margin: 0 15%;
+    border-radius: 20px;
+}
+
