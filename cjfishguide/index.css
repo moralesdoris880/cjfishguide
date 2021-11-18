@@ -1,0 +1,41 @@
+body{
+    background-image: url('media/images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #A5E9F7;
+}
+#cjlogo{
+    border-radius: 70%;
+    width: 13vh;
+}
+#logo{
+    color: #337A96;
+    font-family: 'Fredoka One', cursive;
+    font: 48px;
+    text-align: center;
+}
+#navbar{
+    list-style-type: none;
+    margin: 0 15%;
+    padding: 0;
+    overflow: hidden;
+    background-color:#A5E9F7; 
+    border-radius: 20px; 
+    
+    /* display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    list-style: none;
+    background: lightblue;
+    border-radius: 10px;
+    justify-content:space-evenly ; */
+}
+.navli{
+    font-family: 'Balsamiq Sans', cursive;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin: 0 5%;
+    padding: 14px 14px;
+}
