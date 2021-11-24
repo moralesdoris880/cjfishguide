@@ -1,9 +1,28 @@
+/***************** General *****************/
 body{
     background-image: url('media/images/bg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #A5E9F7;
 }
+h1{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 48px;
+    margin:0;
+    padding: 10px;
+    color: #EFA052;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+#page{
+    background-color: white;
+    margin: 0 15%;
+    border-radius: 20px;
+}
+/***************** Header *****************/
 #cjlogo{
     border-radius: 70%;
     width: 13vh;
@@ -11,7 +30,7 @@ body{
 #logo{
     color: #337A96;
     font-family: 'Fredoka One', cursive;
-    font: 48px;
+    font: 24px;
     text-align: center;
 }
 #navbar{
@@ -31,22 +50,16 @@ body{
     font-size: 24px;
     color: white;
     margin: 0 5%;
-    padding: 14px 14px;
+    padding: 10px 10px;
 }
-#home{
-    background-color: white;
-    margin: 0 15%;
-    border-radius: 20px;
+/***************** Home Page *****************/
+#tutorial-video{
+    padding-left: 10px;
 }
-h1{
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 48px;
-    margin-top: 25px;
+#cj{
+    width: 30vh;
 }
-p{
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+#videosection{
+    margin: auto;
 }
-#flex-welcome{
-    display: flex;
-}
+/***************** Fish Page *****************/

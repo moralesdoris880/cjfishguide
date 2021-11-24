@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Fredoka+One&family=Outfit&display=swap" rel="stylesheet">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎣</text></svg>">
     <title>C.J.'s Fishing Guide</title>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>  
@@ -19,38 +20,45 @@
     
     <nav>
         <ul id="navbar">
-            <li class="navli">Home</li>
-            <li class="navli">Fish</li>
-            <li class="navli">Items</li>
-            <li class="navli">Events</li>
-            <li class="navli">About</li>
+            <li class="navli" id="home-page">Home</li>
+            <li class="navli" id="fish-page">Fish</li>
+            <li class="navli" id="items-page">Items</li>
+            <li class="navli" id="fish-page">Events</li>
+            <li class="navli" id="about-page">About</li>
         </ul>
     </nav>
 
-    <div>
+    <div id=page>
         <div id="home">
-            <div id="flex-welcome">
-                <div>
-                    <h1>Welcome!</h1>
-                    <p>What's up, Fishionista! C.J. here, comin at you live from, 
-                    right in front of you! Nyuk! This is my new latest fish guide.
-                    If you have never fished before do not worry. In my guide, I will
-                    show you the how to fish, what to fish, and where to fish on your
-                    island. So you can become a beginner fisher to a fintastic fisher! 
-                    </p>
-                </div>
-                <div>
+            <div>
+                <h1>Welcome to C.J's Fishing Guide!</h1>
+                <p>What's up, Fishionista! C.J. here, comin at you live from, right in front of you! Nyuk! This is my new latest fish guide. <br>If you have never fished before do not worry. In my guide, I will show you the how to fish, what to fish, and where<br> to fish on your island. So you can become a beginner fisher to a fintastic fisher! Let's start with a video on how to <br>fish and setting up all your fishing materials you will need!</p>
+                <div id="videosection">   
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rAOsn05IzPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id='tutorial-video'></iframe>
                     <img src="media/images/cj.png" id="cj" />
                 </div>
             </div>
-
-            <section>
-                <p>Let me give you a tour of my fishing guide!</p>
-            </section>
-
-
         </div>
-        <div id="Fish"></div>
+        <div id="fish">
+            <h1>Fishpedia</h1>
+            <p>To become a fish master like me, you have to know specific locations where certain fish are only found, what time <br>of the day to catch, and where you are based on hemisphere. But don't worry rookie! Nyuk! Nyuk! I have this table<br> that will show every possible fish that can be caught.</p>
+            <div id="fish-table">
+                <table class='margin' border="1">
+                    <thead class='headtable'>
+                      <tr class='padding'>
+                        <th class='padding center'>Fish</th>
+                        <th class='padding center'>Location</th>
+                        <th class='padding center'>Shadow Size</th>
+                        <th class='padding center'>Value</th>
+                        <th class='padding center'>Time</th>
+                      </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        
     </div>
 
 </body>
