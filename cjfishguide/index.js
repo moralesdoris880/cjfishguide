@@ -29,6 +29,13 @@ function addFish(fish){
         let fishy = document.createElement('tr')
         table2.appendChild(fishy)
 
+        let icon = document.createElement('td')
+        let iconimage = document.createElement('img')
+        iconimage.setAttribute('src',fish[i]['icon_uri'])
+        iconimage.style.width = "5vh";
+        icon.appendChild(iconimage)
+        fishy.appendChild(icon)
+
         let name = document.createElement('td')
         name.innerHTML = fish[i].name['name-USen']
         fishy.appendChild(name)
@@ -55,7 +62,17 @@ function addFish(fish){
             time.innerHTML = `${timearray[0]}- ${timearray[timearray.length-1]}`
             fishy.appendChild(time)
         }
-
+    }
+}
+addMonth();
+function addMonth(){
+    const monthlist =[ "January", "February", "March", "April", "May", "June", 
+    "July", "August", "September", "October", "November", "December" ];
+    for(let i =0;i<12;i++)
+    {   
+        let option = document.createElement('option')
+        option.innerHTML = monthlist[i]
+        document.getElementById('months').appendChild(option)
     }
 }
 
