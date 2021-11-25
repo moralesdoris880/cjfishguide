@@ -63,3 +63,6 @@ p{
     margin: auto;
 }
 /***************** Fish Page *****************/
+#fish{
+    display: none;
+}
