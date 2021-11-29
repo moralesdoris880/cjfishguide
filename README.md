@@ -11,8 +11,8 @@ This project was inspired by my love for fishing and video games. I wanted to be
 
 ## Acknowledgments
 
-http://acnhapi.com/
-https://emojipedia.org/
-https://fonts.google.com/ 
-https://www.reddit.com/r/AnimalCrossing/comments/fo4naf/i_made_the_new_horizons_dock_design_into_a_more/ (Background Image)
-https://www.animal-crossing.com/new-horizons/ (Where to get the game or more information on the game) 
+⋅⋅* http://acnhapi.com/
+⋅⋅* https://emojipedia.org/
+⋅⋅* https://fonts.google.com/ 
+⋅⋅* https://www.reddit.com/r/AnimalCrossing/comments/fo4naf/i_made_the_new_horizons_dock_design_into_a_more/ (Background Image)
+⋅⋅* https://www.animal-crossing.com/new-horizons/ (Where to get the game or more information on the game) 
