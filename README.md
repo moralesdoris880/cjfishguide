@@ -18,6 +18,20 @@ This project was inspired by my love for fishing and video games. I wanted to be
 * https://www.animal-crossing.com/new-horizons/ (Where to get the game or more information on the game) 
 * https://github.com/xpectro93 Emotional and Technical Support! 
 
+## FAQ 
+
+Q: What is Animal Crossing?
+
+A: Animal Crossing is a video game series made by Nintendo that falls under 'social simulation game' (Wikipedia). The newest game released is ACNH which is short for Animal Crossing New Horizon.
+
+Who is C.J?
+
+A: C.J is a beaver who visits your island in ACNH and host fishing tournaments throughout the year. 
+
+Q: How can I use this Fishing Guide?
+
+A: To learn how to fish in Animal Crossing, have a guide that shows how to catch a specific fish (including rare fish), know when fish tournaments are happening and the rewards that comes with it and lastly to support my project :)
+
 ## Contact
 
 * LinkedIn: https://www.linkedin.com/in/dorisvmorales/
