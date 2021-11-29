@@ -24,7 +24,7 @@ Q: What is Animal Crossing?
 
 A: Animal Crossing is a video game series made by Nintendo that falls under 'social simulation game' (Wikipedia). The newest game released is ACNH which is short for Animal Crossing New Horizon.
 
-Who is C.J?
+Q: Who is C.J?
 
 A: C.J is a beaver who visits your island in ACNH and host fishing tournaments throughout the year. 
 
