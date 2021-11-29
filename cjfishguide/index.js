@@ -68,18 +68,6 @@ function addFish(fish){
         value.innerHTML = fish[i].price
         fishy.appendChild(value)
 
-        let north = document.createElement('p')
-        north.innerHTML = fish[i].availability['month-array-northern']
-        north.setAttribute('class','North')
-        north.style.display = 'none'
-        fishy.appendChild(north)
-
-        let south = document.createElement('p')
-        south.innerHTML = fish[i].availability['month-array-southern']
-        south.setAttribute('class','South')
-        south.style.display = 'none'
-        fishy.appendChild(south)
-
         let time = document.createElement('td')
         if (fish[i].availability.isAllDay){
             time.innerHTML = "All Day"
@@ -123,12 +111,14 @@ form.addEventListener('submit',(e)=>{
     })
 
     table2.innerHTML = null;
-    addFish(filteredFishies);
-
-    console.log(filteredFishies, selectedMonth, selectedHemisphere)   
+    addFish(filteredFishies);  
 
 })
-
+let like =0;
+document.querySelector('#likebutton').addEventListener('click',()=>{
+    like +=1
+    document.querySelector('#likebutton').innerHTML = `${like} 👍`
+})
 //CHECK ROW
 //CHECK P TAG OF NORTH TO SEE IF IT MATCHES WITH MONTH
 //IF IT DOES KEEP
