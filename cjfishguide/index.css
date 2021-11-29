@@ -14,7 +14,7 @@ h1{
 }
 p{
     font-family: 'Outfit', sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     padding: 10px;
 }
 #page{
@@ -64,5 +64,19 @@ p{
 }
 /***************** Fish Page *****************/
 #fish{
+    display: none;
+}
+/***************** About Page *****************/
+#about{
+    display: none;
+}
+#flex{
+    display: flex;
+}
+#pfp{
+    width: 20%;
+}
+/***************** Events Page *****************/
+#events{
     display: none;
 }
