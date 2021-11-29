@@ -1,4 +1,4 @@
-# C.J.'s Fishing Guide
+# 🐟C.J.'s Fishing Guide🐟
 Fishing Guide made for Animal Crossing New Horizon players using the ACNH API, HTML5, CSS5, and JS.
 
 ## Animal Crossing API 
@@ -17,7 +17,7 @@ This project was inspired by my love for fishing and video games. I wanted to be
 * https://www.reddit.com/r/AnimalCrossing/comments/fo4naf/i_made_the_new_horizons_dock_design_into_a_more/ (Background Image)
 * https://www.animal-crossing.com/new-horizons/ (Where to get the game or more information on the game) 
 
-## Contact
+## ☎️Contact
 
 * LinkedIn: https://www.linkedin.com/in/dorisvmorales/
 * Github: https://github.com/moralesdoris880
