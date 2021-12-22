@@ -78,6 +78,14 @@ function addFish(fish){
             time.innerHTML = `${timearray[0]}- ${timearray[timearray.length-1]}`
             fishy.appendChild(time)
         }
+
+        let deleterow = document.createElement('td')
+        fishy.appendChild(deleterow)
+        let deletebtn = document.createElement('button')
+        deletebtn.innerHTML = "X"
+        deleterow.appendChild(deletebtn)
+        deletebtn.addEventListener('click',(e)=> fishy.remove())
+        
     }
 }
 
